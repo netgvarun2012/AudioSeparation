@@ -12,7 +12,7 @@ Then, run the following command to execute the script and compare the Sheet Imag
 
 **python SeparateAudio.py -w "C:/Aboitiz/Deliverables/AudioDeceptionDetectionSeparation/lie_audio/trial_lie_037.wav"**
 
-It takes 2 mandatory parameters as input:
+It takes 1 mandatory parameter as input:
 1. -w (wavfilepath) i.e absolute path of the wav file which needs to be separated.
 
 **Sample Output**
