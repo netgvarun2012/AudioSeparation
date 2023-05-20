@@ -60,7 +60,7 @@ def separateAudio(starts,intervals,speakers,samplerate,audioPath,inputfile,data,
 
   generatedFile = inputfile+"_"+str(speaker_num)+".wav"
   combined.export(audioPath + generatedFile, format="wav")
-  print(f'Final wav recording Generated For Speaker {speaker_num}\n')
+  print(f'Final wav recording Generated For Speaker {speaker_num} \n')
   #display(IPython.display.Audio('/content/drive/MyDrive/AudioSeparation/combined_new_file.wav'))
 
 
@@ -114,10 +114,10 @@ def exploreFile(#index = 0,
         print('SAMPLED SPEAKING INTERVALS')
 
     # annotated audio for speaker1
-    print('\nWriting Audio for Speaker 1...')
+    #print('\nWriting Audio for Speaker 1...')
     separateAudio(starts_00,intervals_00,speakers_00,samplerate,audioPath,file,data,1)
     # annotated audio for speaker2
-    print('\nWriting Audio for Speaker 2...')
+    #print('\nWriting Audio for Speaker 2...')
     separateAudio(starts_01,intervals_01,speakers_01,samplerate,audioPath,file,data,2)
 
 def get_file_name(link):
