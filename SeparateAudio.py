@@ -138,8 +138,7 @@ def get_file_path(link):
 
 def main():
     """
-    This is the main function for comparing sheet music image 
-    and corresponding audio recording for calculating accuracy of notes.
+    This is the main function for separating audio files based on different speakers.
     """
     parser = argparse.ArgumentParser(description=
     "SeparateAudio",usage='%(prog)s [-h] [-w wavfile]')
