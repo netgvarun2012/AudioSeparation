@@ -12,7 +12,7 @@ If you get an error during installation or running the script, make sure you hav
 <img width="710" alt="image" src="https://github.com/netgvarun2012/AudioSeparation/assets/93938450/de75ecb7-4035-4dd6-ab37-ac6b43cc594b">
 
 
-Then, run the following command to execute the script and compare the Sheet Image PNG file and transcribed MIDI (obtained above).
+Then, run the following command to execute the script:
 
 **python SeparateAudio.py -w "C:/Aboitiz/Deliverables/AudioDeceptionDetectionSeparation/lie_audio/trial_lie_037.wav"**
 
